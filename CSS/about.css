@@ -1,0 +1,664 @@
+body {
+    font-family: 'COCOGOOSE', sans-serif;
+
+    background-color: #F8F8F8;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #272A31;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #pre-heading {
+        display: none;
+    }
+
+    #header-nav {
+        background-color: #EC5242;
+        height: 70vh;
+        display: none;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    #header-list li {
+        color: #FFF;
+        margin-bottom: 30px;
+        font-size: 15px;
+        width: 25%;
+    }
+
+    #header-list a {
+        color: #FFF;
+    }
+
+    #header-list li:last-child {
+        border: 3px solid #FFF;
+        padding: 5px;
+    }
+
+    #header-list li:first-child {
+        font-size: 35px;
+    }
+
+    .close {
+        margin-left: 270px;
+        padding-top: 10px;
+    }
+
+    .line {
+        width: 13%;
+        height: 8px;
+        background-color: #272A31;
+        margin-bottom: 7px;
+        margin-left: 5%;
+    }
+
+    #hamburger {
+        margin-top: 7%;
+    }
+
+    .show {
+        display: block !important;
+    }
+
+    #nig-logo {
+        display: none;
+    }
+
+    #top-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-image: url(../Images/about-bg.png);
+    }
+
+    .first-para {
+        color: #EC5242;
+        font-size: 20px;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+        width: 80%;
+        margin-left: 8%;
+    }
+
+    .topic {
+        margin-top: 5px;
+        color: #EC5242;
+        font-size: 50px;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+        width: 90%;
+        padding-left: 4%;
+        margin-bottom: 5px;
+    }
+
+    .hr1 {
+        height: 2px;
+        background-color: #EC5242;
+        width: 3%;
+        margin-left: 48%;
+        margin-bottom: 30px;
+    }
+
+    .second-para {
+        background-color: #FFF;
+        font-size: 15px;
+        width: 90%;
+        margin-left: 0%;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+        color: #272A31;
+        line-height: 18px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .third-para {
+        font-family: 'lato', sans-serif;
+        font-size: 15px;
+        text-align: center;
+        width: 70%;
+        margin-left: 15%;
+        color: #272A31;
+    }
+
+    .ng {
+        height: 30px;
+        margin-top: 2px;
+    }
+
+    .summit {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    #nig-logo3 {
+        display: flex;
+        padding-left: 12%;
+        padding-top: 10px;
+        width: 40%;
+        margin-left: 25%;
+        background-color: #F8F8F8;
+        margin-bottom: 20px;
+    }
+
+    #mid-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #FFF;
+    }
+
+    .heading1 {
+        font-size: 15px;
+        font-family: 'lato', sans-serif;
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+        color: #272A31;
+        margin-bottom: 3px;
+    }
+
+    .fourth-para {
+        font-size: 12px;
+        font-family: 'lato', sans-serif;
+        color: #272A31;
+        width: 75%;
+        text-align: center;
+        margin-top: 0;
+        padding-left: 12%;
+        margin-bottom: 15px;
+    }
+
+    .hr2 {
+        height: 2px;
+        background-color: #EC5242;
+        width: 3%;
+        margin-left: 48%;
+        margin-bottom: 15px;
+    }
+
+    #bottom-section {
+        width: 100%;
+        background-color: #F8F8F8;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading2 {
+        width: 60%;
+        font-size: 20px;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+        margin-left: 18%;
+    }
+
+    .fifth-para {
+        font-size: 15px;
+        font-family: 'lato', sans-serif;
+        width: 70%;
+        margin-left: 13%;
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    .image-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 5%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .first-image {
+        background-image: url(../Images/summit1.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 55vh;
+        margin-right: 2%;
+       
+    }
+
+    .second-image {
+        background-image: url(../Images/summit2.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 55vh;
+        
+    }
+
+    .orangebg {
+        height: 50vh;
+        background-color: #ec5242ab;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .orangebg:hover {
+        cursor: pointer;
+    }
+
+    .heading3 {
+        color: #FFF;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+    }
+
+    .sixth-para {
+        color: #FFF;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+    }
+
+    #partners {
+        background-color: #414246;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #partners-list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        padding-top: 15px;
+        width: 70%;
+        padding-left: 15%;
+        padding-bottom: 30px;
+    }
+
+    .partner {
+        width: 80px;
+        justify-self: center;
+    }
+
+    .ninth-header {
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 0;
+        margin-bottom: 5px;
+        font-family: 'lato', sans-serif;
+        font-size: 15px;
+        color: #D3D3D3;
+    }
+
+    .ng {
+        height: 30px;
+        margin-top: 2px;
+    }
+
+    .summit {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    #nig-logo2 {
+        display: flex;
+        padding-left: 12%;
+        padding-top: 10px;
+    }
+
+    #foot {
+        width: 100%;
+        background-color: #FFF;
+        margin-top: -15px;
+    }
+
+    .feet {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 8%;
+    }
+
+    .footer-para {
+        font-size: 12px;
+        padding-left: 7%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .fb {
+        height: 10px;
+    }
+
+    .tw {
+        height: 10px;
+    }
+
+    #pre-heading {
+        width: 100%;
+        background-color: #3E3E3E;
+        margin-top: 0%;
+        height: 30px;
+    }
+
+    #phlist {
+        display: flex;
+        width: 25%;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 65%;
+    }
+
+    #phlist li {
+        color: #FFF;
+        font-size: 9px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+
+    .ng {
+        height: 30px;
+        margin-top: 2px;
+    }
+
+    #logo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 4%;
+        justify-content: space-around;
+        margin-top: 10px;
+        position: fixed;
+    }
+
+    #nig-logo {
+        display: flex;
+        padding-left: 12%;
+        padding-top: 5px;
+    }
+
+    .close {
+        display: none;
+    }
+
+    #header-nav {
+        width: 55%;
+        padding-left: 24%;
+        padding-right: 10%;
+    }
+
+    #header-list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        padding-top: 0;
+    }
+
+    #header-list li {
+        font-size: 13px;
+    }
+
+    #main-header {
+        display: flex;
+        background-color: #F8F8F8;
+        padding-left: 13%;
+    }
+
+    #header-list li:last-child {
+        padding: 3px;
+        border: 3px solid #EC5242;
+        font-size: 10px;
+        color: #EC5242;
+        justify-self: center;
+    }
+
+    .summit {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    #top-section {
+        background-image: url(../Images/about-bg.png);
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .first-para {
+        display: none;
+    }
+
+    .topic {
+        margin-top: 60px;
+        color: #EC5242;
+        font-size: 50px;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+        width: 50%;
+        padding-left: 24%;
+        margin-bottom: 5px;
+    }
+
+    .hr1 {
+        height: 2px;
+        background-color: #EC5242;
+        width: 3%;
+        margin-left: 48%;
+        margin-bottom: 30px;
+    }
+
+    .second-para {
+        background-color: #FFF;
+        font-size: 15px;
+        width: 50%;
+        margin-left: 20%;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+        color: #272A31;
+        line-height: 18px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .third-para {
+        font-family: 'lato', sans-serif;
+        font-size: 15px;
+        text-align: center;
+        width: 40%;
+        margin-left: 28%;
+        color: #272A31;
+    }
+
+    #nig-logo3 {
+        display: flex;
+        padding-left: 10%;
+        padding-top: 10px;
+        width: 20%;
+        margin-left: 35%;
+        background-color: #F8F8F8;
+        margin-bottom: 20px;
+    }
+
+    #mid-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #FFF;
+    }
+
+    .heading1 {
+        font-size: 15px;
+        font-family: 'lato', sans-serif;
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+        color: #272A31;
+        margin-bottom: 3px;
+    }
+
+    .fourth-para {
+        font-size: 12px;
+        font-family: 'lato', sans-serif;
+        color: #272A31;
+        width: 75%;
+        text-align: center;
+        margin-top: 0;
+        padding-left: 12%;
+        margin-bottom: 15px;
+    }
+
+    .hr2 {
+        height: 2px;
+        background-color: #EC5242;
+        width: 3%;
+        margin-left: 48%;
+        margin-bottom: 15px;
+    }
+
+    #bottom-section {
+        width: 100%;
+        background-color: #F8F8F8;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading2 {
+        width: 30%;
+        font-size: 20px;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+        margin-left: 35%;
+    }
+
+    .fifth-para {
+        font-size: 15px;
+        font-family: 'lato', sans-serif;
+        width: 50%;
+        margin-left: 23%;
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    .image-div {
+        display: flex;
+        width: 80%;
+        margin-left: 17%;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    .first-image {
+        background-image: url(../Images/summit1.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        width: 40%;
+        height: 55vh;
+        margin-right: 2%;
+       
+    }
+
+    .second-image {
+        background-image: url(../Images/summit2.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        width: 40%;
+        height: 55vh;
+        
+    }
+
+    .orangebg {
+        height: 55vh;
+        background-color: #ec5242ab;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .orangebg:hover {
+        cursor: pointer;
+    }
+
+    .heading3 {
+        color: #FFF;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+    }
+
+    .sixth-para {
+        color: #FFF;
+        font-family: 'lato', sans-serif;
+        text-align: center;
+    }
+
+    #partners {
+        background-color: #414246;
+    }
+
+    #partners-list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        padding-top: 25px;
+        width: 70%;
+        padding-left: 15%;
+        padding-bottom: 30px;
+    }
+
+    .partner {
+        width: 120px;
+        justify-self: center;
+    }
+
+    .ninth-header {
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 0;
+        margin-bottom: 5px;
+        font-family: 'lato', sans-serif;
+        font-size: 20px;
+        color: #D3D3D3;
+    }
+
+    #foot {
+        width: 100%;
+        background-color: #FFF;
+        margin-top: -15px;
+    }
+
+    .feet {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 27%;
+        padding-top: 20px;
+    }
+
+    .footer-para {
+        font-size: 12px;
+    }
+
+    #nig-logo2 {
+        display: flex;
+        padding-left: 12%;
+        padding-top: 5px;
+    }
+
+}    
