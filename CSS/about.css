@@ -245,7 +245,7 @@ a {
   }
 
   .orangebg {
-    height: 50vh;
+    height: 50.5vh;
     background-color: #ec5242ab;
     display: flex;
     flex-direction: column;
@@ -552,7 +552,7 @@ a {
 
   .first-image {
     background-image: url(../Images/summit1.png);
-    background-size: 600px;
+    background-size: 620px;
     background-repeat: no-repeat;
     width: 40%;
     height: 55vh;
@@ -561,7 +561,7 @@ a {
 
   .second-image {
     background-image: url(../Images/summit2.png);
-    background-size: 600px;
+    background-size: 620px;
     background-repeat: no-repeat;
     width: 40%;
     height: 55vh;
