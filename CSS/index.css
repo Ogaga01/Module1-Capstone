@@ -10,6 +10,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #272A31;
 }
 
 @media screen and (max-width: 767px) {
@@ -23,12 +24,8 @@ a {
         display: none;
     }
 
-    #nig-logo {
-        display: none;
-    }
-
     #header-nav {
-        background-color: orangered;
+        background-color: #EC5242;
         height: 70vh;
         display: none;
         position: absolute;
@@ -39,9 +36,13 @@ a {
 
     #header-list li {
         color: #FFF;
-        margin-bottom: 20px;
-        font-size: 30px;
-        width: 50%;
+        margin-bottom: 30px;
+        font-size: 15px;
+        width: 25%;
+    }
+
+    #header-list a {
+        color: #FFF;
     }
 
     #header-list li:last-child {
@@ -49,16 +50,19 @@ a {
         padding: 5px;
     }
 
+    #header-list li:first-child {
+        font-size: 35px;
+    }
+
     .close {
-        margin-left: 300px;
-        padding-top: 20px;
-        font-size: 30px;
+        margin-left: 270px;
+        padding-top: 10px;
     }
 
     .line {
         width: 13%;
         height: 8px;
-        background-color: black;
+        background-color: #272A31;
         margin-bottom: 7px;
         margin-left: 5%;
     }
@@ -95,7 +99,7 @@ a {
 
     .first-para {
         font-size: 13px;
-        color: orangered;
+        color: #EC5242;
         bottom: 0;
     }
 
@@ -114,15 +118,17 @@ a {
         margin-top: 0;
         margin-bottom: 0;
         width: 100%;
+        color: #272A31;
     }
 
     .fourth-para {
         font-size: 10px;
+        color: #272A31;
     }
 
     #mid-section {
         width: 100%;
-        background-color: #282B32;
+        background-color: #272A31;
         background-image: url(../Images/fill-bg.png);
         background-size: 25px;
     }
@@ -137,7 +143,7 @@ a {
     }
 
     .sixth-header {
-        color: orangered;
+        color: #EC5242;
         font-size: 10px;
         justify-self: justify;
         margin-top: 10px;
@@ -192,10 +198,10 @@ a {
     }
 
     .hr1 {
-        background-color: orangered;
+        background-color: #EC5242;
         width: 10%;
         height: 1px;
-        margin-left: 43%;
+        margin-left: 45%;
         margin-top: 0;
     }
 
@@ -225,12 +231,160 @@ a {
     }
 
     #button-a {
-        background-color: orangered;
+        background-color: #EC5242;
         color: #FFF;
         width: 70%;
         height: 40px;
         margin-left: 15%;
         margin-bottom: 40px;
+    }
+
+    .speaker-image {
+        height: 80px;
+        width: 80px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #featured {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #FFF;
+    }
+
+    .eighth-header {
+        font-family: 'lato', sans-serif;
+        font-size: 20px;
+        color: #272A31;
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #speakers {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 35px;
+    }
+
+    .left-speakers {
+        display: flex;
+        background-image: url(../Images/chess2.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .seventh-header {
+        font-family: 'cocogeese', sans-serif;
+        font-size: 15px;
+        color: #272A31;
+        margin-top: 10px;
+        line-height: 18px;
+        text-align:justify;
+        padding-left: 10px;
+        width: 80%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .sixth-para {
+        color: #EC5242;
+        font-size: 8px;
+        justify-self: justify;
+        width: 80%;
+        font-style: italic;
+        padding-left: 10px;
+        padding-top: 0;
+        margin-bottom: 0;padding-bottom: 0;
+    }
+
+    .seventh-para {
+        color: #999999;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    .right-speakers {
+        display: flex;
+        background-image: url(../Images/chess2.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    #partners {
+        background-color: #414246;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #partners-list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        padding-top: 15px;
+        width: 70%;
+        padding-left: 15%;
+        padding-bottom: 30px;
+    }
+
+    .partner {
+        width: 80px;
+        justify-self: center;
+    }
+
+    .ninth-header {
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 0;
+        margin-bottom: 5px;
+        font-family: 'lato', sans-serif;
+        font-size: 15px;
+        color: #D3D3D3;
+    }
+
+    .ng {
+        height: 30px;
+        margin-top: 2px;
+    }
+
+    .summit {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    #nig-logo2 {
+        display: flex;
+        padding-left: 12%;
+        padding-top: 10px;
+    }
+
+    #foot {
+        width: 100%;
+        background-color: #FFF;
+        margin-top: -15px;
+    }
+
+    .feet {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 8%;
+    }
+
+    .footer-para {
+        font-size: 12px;
+        padding-left: 7%;
+    }
+
+    #nig-logo {
+        display: none;
     }
 }
 
@@ -315,9 +469,9 @@ a {
 
     #header-list li:last-child {
         padding: 3px;
-        border: 3px solid orangered;
+        border: 3px solid #EC5242;
         font-size: 10px;
-        color: orangered;
+        color: #EC5242;
         justify-self: center;
     }
 
@@ -362,7 +516,7 @@ a {
 
     .first-para {
         font-size: 18px;
-        color: orangered;
+        color: #EC5242;
         bottom: 0;
     }
 
@@ -379,6 +533,7 @@ a {
         font-weight: bold;
         margin-top: 0;
         margin-bottom: 0;
+        color: #272A31;
     }
 
     #mid-section {
@@ -397,7 +552,7 @@ a {
     }
 
     .sixth-header {
-        color: orangered;
+        color: #EC5242;
         font-size: 10px;
         justify-self: center;
         margin-top: 10px;
@@ -447,7 +602,7 @@ a {
     }
 
     .hr1 {
-        background-color: orangered;
+        background-color: #EC5242;
         width: 3%;
         height: 1px;
         margin-left: 48.5%;
@@ -482,5 +637,136 @@ a {
 
     #button-a {
         display: none;
+    }
+
+    .speaker-image {
+        height: 80px;
+        width: 80px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #featured {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .eighth-header {
+        font-family: 'lato', sans-serif;
+        font-size: 20px;
+        color: #272A31;
+        width: 20%;
+        margin-left: 40%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #speakers {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin-left: 20%;
+        margin-top: 35px;
+    }
+
+    .left-speakers {
+        display: flex;
+        background-image: url(../Images/chess.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        width: 40%;
+    }
+
+    .seventh-header {
+        font-family: 'cocogeese', sans-serif;
+        font-size: 15px;
+        color: #272A31;
+        margin-top: 10px;
+        line-height: 18px;
+        text-align:justify;
+        padding-left: 10px;
+        width: 80%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .sixth-para {
+        color: #EC5242;
+        font-size: 8px;
+        justify-self: justify;
+        width: 80%;
+        font-style: italic;
+        padding-left: 10px;
+        padding-top: 0;
+        margin-bottom: 0;padding-bottom: 0;
+    }
+
+    .seventh-para {
+        color: #999999;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    .right-speakers {
+        display: flex;
+        background-image: url(../Images/chess.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        width: 40%;
+        margin-left: 5%;
+    }
+
+    #partners {
+        background-color: #414246;
+    }
+
+    #partners-list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        padding-top: 25px;
+        width: 70%;
+        padding-left: 15%;
+        padding-bottom: 30px;
+    }
+
+    .partner {
+        width: 120px;
+        justify-self: center;
+    }
+
+    .ninth-header {
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 0;
+        margin-bottom: 5px;
+        font-family: 'lato', sans-serif;
+        font-size: 20px;
+        color: #D3D3D3;
+    }
+
+    #foot {
+        width: 100%;
+        background-color: #FFF;
+        margin-top: -15px;
+    }
+
+    .feet {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 27%;
+        padding-top: 20px;
+    }
+
+    .footer-para {
+        font-size: 12px;
+    }
+
+    #nig-logo2 {
+        display: flex;
+        padding-left: 12%;
+        padding-top: 5px;
     }
 }
