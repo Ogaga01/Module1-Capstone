@@ -245,7 +245,7 @@ a {
   }
 
   .orangebg {
-    height: 60vh;
+    height: 50vh;
     background-color: #ec5242ab;
     display: flex;
     flex-direction: column;
