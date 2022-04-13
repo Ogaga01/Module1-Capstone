@@ -12,7 +12,7 @@ A project to test the understanding of HTML, CSS and Basic Javascript.
 - CSS
 - JavaScript
 
-Here's a [video ](https://www.loom.com/share/4965626eea644be3992bbfe476953354) of me giving a few description of the project.
+Here's a [video ](https://www.loom.com/share/65f0244082724bb0ac4480160290e638) of me giving a few description of the project.
 
 ## Live Demo (if available)
 
@@ -22,8 +22,6 @@ Here's a [video ](https://www.loom.com/share/4965626eea644be3992bbfe476953354) o
 ## Getting Started With The Project
 
 To get a local copy up and running follow these simple example steps.
-
-
 ### Install
 - copy this link `https://github.com/Ogaga01/Module1-Capstone.git`.
 - get the directory that you want to clone the repository.

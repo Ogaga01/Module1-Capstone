@@ -83,7 +83,7 @@ a {
   }
 
   .first-header {
-    background-image: url(../images/orange.jpeg);
+    background-image: url(../Images/orange.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-clip: text;
