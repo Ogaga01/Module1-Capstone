@@ -1,0 +1,771 @@
+body {
+  font-family: 'COCOGOOSE', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background-image: url(../Images/mobile-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #pre-heading {
+    display: none;
+  }
+
+  #header-nav {
+    background-color: #ec5242;
+    height: 70vh;
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  #header-list li {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 15px;
+    width: 25%;
+  }
+
+  #header-list a {
+    color: #fff;
+  }
+
+  #header-list li:last-child {
+    border: 3px solid #fff;
+    padding: 5px;
+  }
+
+  #header-list li:first-child {
+    font-size: 35px;
+  }
+
+  .close {
+    margin-left: 270px;
+    padding-top: 10px;
+  }
+
+  .line {
+    width: 13%;
+    height: 8px;
+    background-color: #272a31;
+    margin-bottom: 7px;
+    margin-left: 5%;
+  }
+
+  #hamburger {
+    margin-top: 7%;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  .top-tier {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2.5%;
+  }
+
+  .first-header {
+    background-image: url(../Images/orange.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 100%;
+  }
+
+  .topic {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .first-para {
+    font-size: 13px;
+    color: #ec5242;
+    bottom: 0;
+  }
+
+  .second-para {
+    width: 100%;
+    font-size: 10px;
+    line-height: 20px;
+    border: 3px solid #fff;
+    background-color: #f7f7f7;
+    height: 5%;
+  }
+
+  .third-para {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    color: #272a31;
+  }
+
+  .fourth-para {
+    font-size: 10px;
+    color: #272a31;
+  }
+
+  #mid-section {
+    width: 100%;
+    background-color: #272a31;
+    background-image: url(../Images/fill-bg.png);
+    background-size: 25px;
+  }
+
+  .award {
+    height: 30px;
+    justify-self: center;
+    padding-top: 7px;
+    padding-bottom: 0;
+    width: 10%;
+    padding-right: 7px;
+  }
+
+  .sixth-header {
+    color: #ec5242;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 20%;
+  }
+
+  .fifth-para {
+    color: #e9e8ea;
+    font-size: 8px;
+    line-height: 18px;
+    text-align: justify;
+    padding-left: 3px;
+    width: 60%;
+  }
+
+  #events {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+
+  .event-logo {
+    height: 30px;
+    justify-self: center;
+    padding-top: 7px;
+    padding-bottom: 0;
+    width: 10%;
+    padding-right: 7px;
+  }
+
+  .event-1 {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 2%;
+  }
+
+  .program-head {
+    color: #fff;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'lato', sans-serif;
+  }
+
+  .hr1 {
+    background-color: #ec5242;
+    width: 10%;
+    height: 1px;
+    margin-left: 45%;
+    margin-top: 0;
+  }
+
+  .whole-program {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  .hr2 {
+    background-color: white;
+    height: 1px;
+    width: 12%;
+    margin-left: 44%;
+    margin-top: 0;
+  }
+
+  .whole-hr {
+    display: none;
+  }
+
+  .event-1:hover {
+    border: 2px solid white;
+    cursor: pointer;
+  }
+
+  #button-a {
+    background-color: #ec5242;
+    color: #fff;
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-bottom: 40px;
+  }
+
+  .speaker-image {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  #featured {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .eighth-header {
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    color: #272a31;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  #speakers {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 35px;
+  }
+
+  .left-speakers {
+    display: flex;
+    background-image: url(../Images/chess2.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .seventh-header {
+    font-family: 'cocogeese', sans-serif;
+    font-size: 15px;
+    color: #272a31;
+    margin-top: 10px;
+    line-height: 18px;
+    text-align: justify;
+    padding-left: 10px;
+    width: 80%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .sixth-para {
+    color: #ec5242;
+    font-size: 8px;
+    width: 80%;
+    font-style: italic;
+    padding-left: 10px;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .seventh-para {
+    color: #999;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+
+  .right-speakers {
+    display: flex;
+    background-image: url(../Images/chess2.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  #partners {
+    background-color: #272a31;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  #partners-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding-top: 15px;
+    width: 70%;
+    padding-left: 15%;
+    padding-bottom: 30px;
+  }
+
+  .partner {
+    width: 80px;
+    justify-self: center;
+  }
+
+  .ninth-header {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    font-family: 'lato', sans-serif;
+    font-size: 15px;
+    color: #d3d3d3;
+  }
+
+  .ng {
+    height: 30px;
+    margin-top: 2px;
+  }
+
+  .summit {
+    font-size: 20px;
+    margin-top: 2px;
+  }
+
+  #nig-logo2 {
+    display: flex;
+    padding-left: 12%;
+    padding-top: 10px;
+  }
+
+  #foot {
+    width: 100%;
+    background-color: #fff;
+    margin-top: -15px;
+  }
+
+  .feet {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8%;
+  }
+
+  .footer-para {
+    font-size: 12px;
+    padding-left: 7%;
+  }
+
+  #nig-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fb {
+    height: 10px;
+  }
+
+  .tw {
+    height: 10px;
+  }
+
+  #pre-heading {
+    width: 100%;
+    background-color: #3e3e3e;
+    margin-top: 0%;
+    height: 30px;
+  }
+
+  #phlist {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 65%;
+  }
+
+  #phlist li {
+    color: #fff;
+    font-size: 9px;
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+
+  .ng {
+    height: 30px;
+    margin-top: 2px;
+  }
+
+  #logo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 4%;
+    justify-content: space-around;
+    margin-top: 10px;
+    position: fixed;
+  }
+
+  #nig-logo {
+    display: flex;
+    padding-left: 12%;
+    padding-top: 5px;
+  }
+
+  .close {
+    display: none;
+  }
+
+  #header-nav {
+    width: 55%;
+    padding-left: 24%;
+    padding-right: 10%;
+  }
+
+  #header-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 0;
+  }
+
+  #header-list li {
+    font-size: 13px;
+  }
+
+  #main-header {
+    display: flex;
+    background-color: #f8f8f8;
+    padding-left: 13%;
+  }
+
+  #header-list li:last-child {
+    padding: 3px;
+    border: 3px solid #ec5242;
+    font-size: 10px;
+    color: #ec5242;
+    justify-self: center;
+  }
+
+  .summit {
+    font-size: 20px;
+    margin-top: 2px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  #top-section {
+    width: 100%;
+    background-image: url(../Images/main-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .top-tier {
+    width: 50%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6%;
+  }
+
+  .first-header {
+    background-image: url(../Images/orange.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 100%;
+  }
+
+  .topic {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .first-para {
+    font-size: 18px;
+    color: #ec5242;
+    bottom: 0;
+  }
+
+  .second-para {
+    width: 80%;
+    font-size: 10px;
+    line-height: 20px;
+    border: 3px solid #fff;
+    background-color: #f7f7f7;
+  }
+
+  .third-para {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #272a31;
+  }
+
+  #mid-section {
+    width: 100%;
+    background-color: #282b32;
+    background-image: url(../Images/fill-bg.png);
+    background-size: 25px;
+    height: 50%;
+  }
+
+  .award {
+    height: 30px;
+    justify-self: center;
+    padding-top: 7px;
+    padding-bottom: 0;
+  }
+
+  .sixth-header {
+    color: #ec5242;
+    font-size: 10px;
+    justify-self: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .fifth-para {
+    color: #e9e8ea;
+    font-size: 7px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  #events {
+    width: 75%;
+    display: flex;
+    margin-left: 18%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+
+  .event-logo {
+    height: 30px;
+    justify-self: center;
+    padding-top: 7px;
+    padding-bottom: 0;
+  }
+
+  .event-1 {
+    display: grid;
+    justify-content: center;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0.3%;
+  }
+
+  .program-head {
+    color: #fff;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+  }
+
+  .hr1 {
+    background-color: #ec5242;
+    width: 3%;
+    height: 1px;
+    margin-left: 48.5%;
+    margin-top: 0;
+  }
+
+  .whole-program {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 0;
+    font-family: 'lato', sans-serif;
+  }
+
+  .hr2 {
+    background-color: white;
+    height: 1px;
+    width: 11%;
+    margin-left: 44.5%;
+    margin-top: 0;
+  }
+
+  .whole-hr {
+    padding-bottom: 5%;
+  }
+
+  .event-1:hover {
+    border: 2px solid white;
+    cursor: pointer;
+  }
+
+  #button-a {
+    display: none;
+  }
+
+  .speaker-image {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  #featured {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .eighth-header {
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    color: #272a31;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  #speakers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 35px;
+  }
+
+  .left-speakers {
+    display: flex;
+    background-image: url(../Images/chess.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    width: 40%;
+  }
+
+  .seventh-header {
+    font-family: 'cocogeese', sans-serif;
+    font-size: 15px;
+    color: #272a31;
+    margin-top: 10px;
+    line-height: 18px;
+    text-align: justify;
+    padding-left: 10px;
+    width: 80%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .sixth-para {
+    color: #ec5242;
+    font-size: 8px;
+    width: 80%;
+    font-style: italic;
+    padding-left: 10px;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .seventh-para {
+    color: #999;
+    font-size: 10px;
+    padding-left: 10px;
+  }
+
+  .right-speakers {
+    display: flex;
+    background-image: url(../Images/chess.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  #partners {
+    background-color: #272a31;
+  }
+
+  #partners-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-top: 25px;
+    width: 70%;
+    padding-left: 15%;
+    padding-bottom: 30px;
+  }
+
+  .partner {
+    width: 120px;
+    justify-self: center;
+  }
+
+  .ninth-header {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    color: #d3d3d3;
+  }
+
+  #foot {
+    width: 100%;
+    background-color: #fff;
+    margin-top: -15px;
+  }
+
+  .feet {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 27%;
+    padding-top: 20px;
+  }
+
+  .footer-para {
+    font-size: 12px;
+  }
+
+  #nig-logo2 {
+    display: flex;
+    padding-left: 12%;
+    padding-top: 5px;
+  }
+}
