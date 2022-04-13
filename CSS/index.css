@@ -1,6 +1,7 @@
 body {
   font-family: 'COCOGOOSE', sans-serif;
   background-color: #f8f8f8;
+  margin: 0;
 }
 
 li {
@@ -316,7 +317,7 @@ a {
   }
 
   #partners {
-    background-color: #414246;
+    background-color: #272A31;
     width: 100%;
     margin-bottom: 0;
   }
@@ -716,7 +717,7 @@ a {
   }
 
   #partners {
-    background-color: #414246;
+    background-color: #272A31;
   }
 
   #partners-list {

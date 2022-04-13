@@ -19,7 +19,7 @@ const summitSpeakers = document.getElementById('speakers');
 const people = [
   {
     id: 1,
-    image: './images/President-Muhammadu-Buhari.png',
+    image: './Images/President-Muhammadu-Buhari.png',
     name: 'President Muhammadu Buhari',
     title: 'President, Federal Republic of Nigeria',
     description: 'The president and commander in chief of the Federal Republic of Nigeria talks about the cripling, epileptic power situation in the country, and also provide suggestions as to how to stabilise the electricity situation.',
@@ -28,7 +28,7 @@ const people = [
 
   {
     id: 2,
-    image: './images/Yemi-Osinbajo.png',
+    image: './Images/Yemi-Osinbajo.png',
     name: 'Yemi Osibajo',
     title: 'Vice President, Federal Republic of Nigeria',
     description: 'The vice president gives his take on the power and electricity generation within the country, suggest plans to help the country move forward in her fight for better electrical situation.',
@@ -36,7 +36,7 @@ const people = [
 
   {
     id: 3,
-    image: './images/Babatunde-Raji-Fashola-SAN-Governor-Lagos-State.png',
+    image: './Images/Babatunde-Raji-Fashola-SAN-Governor-Lagos-State.png',
     name: 'Babatunde Raji Fashola, SAN',
     title: 'Minister of Works, Power and Housing',
     description: 'Being at the head of the the power sector in Nigeria, the minister would give us a breifing of the investigation carried out by him and his team on the power situation in the country.',
@@ -45,7 +45,7 @@ const people = [
 
   {
     id: 4,
-    image: './images/Babajide_Sanwo-Olu.png',
+    image: './Images/Babajide_Sanwo-Olu.png',
     name: 'Babajide Sanwo-Olu',
     title: 'Governor, Lagos State',
     description: 'The governor of one of the most populous states in the country would now tell us about how his citizens cope with the poor electricity situation in the state.',
@@ -53,7 +53,7 @@ const people = [
 
   {
     id: 5,
-    image: './images/lawan.png',
+    image: './Images/lawan.png',
     name: 'Ahmad Lawan',
     title: 'Senate President, Federal Republic Of Nigeria',
     description: 'The senate president would update us on the decisions made to promote better electricity by the senate house.',
@@ -62,7 +62,7 @@ const people = [
 
   {
     id: 6,
-    image: './images/Governor-Ifeanyi-Okowa.png',
+    image: './Images/Governor-Ifeanyi-Okowa.png',
     name: 'Ifeanyi Okowa',
     title: 'Governor, Delta State',
     description: 'Gorvenor Okowa would give us details of the use of the oil sector in the Nigerian Power Sector.',

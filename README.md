@@ -3,6 +3,7 @@
 # Module1-Capstone
 
 > Module-1 capstone project.
+A project to test the understanding of HTML, CSS and Basic Javascript.
 
 
 ## Built With
@@ -20,21 +21,16 @@ Here's a [video ](https://www.loom.com/share/4965626eea644be3992bbfe476953354) o
 
 ## Getting Started With The Project
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 
 ### Install
-- Repo link: https://github.com/Ogaga01/Module1-Capstone
-
-- Copy SSH link or HTTP link
-
-- git clone link copied
-
-- cd mobile-version-portfolio-project
+- copy this link `https://github.com/Ogaga01/Module1-Capstone.git`.
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone https://github.com/Ogaga01/Module1-Capstone.git`.
+- go to the repository folder in your command prompt, run `cd Module1-Capstone`.
+- run `npm install`
 
 
 

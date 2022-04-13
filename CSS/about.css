@@ -1,6 +1,7 @@
 body {
   font-family: 'COCOGOOSE', sans-serif;
   background-color: #f8f8f8;
+  margin: 0;
 }
 
 li {
@@ -232,6 +233,7 @@ a {
     width: 90%;
     height: 55vh;
     margin-right: 2%;
+    padding-bottom: 15px;
   }
 
   .second-image {
@@ -243,7 +245,7 @@ a {
   }
 
   .orangebg {
-    height: 50vh;
+    height: 60vh;
     background-color: #ec5242ab;
     display: flex;
     flex-direction: column;
@@ -268,7 +270,7 @@ a {
   }
 
   #partners {
-    background-color: #414246;
+    background-color: #272A31;
     width: 100%;
     margin-bottom: 0;
   }
@@ -307,7 +309,7 @@ a {
 
   #foot {
     width: 100%;
-    background-color: #fff;
+    background-color: #FFF;
     margin-top: -15px;
   }
 
@@ -591,7 +593,8 @@ a {
   }
 
   #partners {
-    background-color: #414246;
+    background-color: #272A31;
+    display: none;
   }
 
   #partners-list {
@@ -621,7 +624,7 @@ a {
 
   #foot {
     width: 100%;
-    background-color: #fff;
+    background-color: #272A31;
     margin-top: -15px;
   }
 
@@ -635,6 +638,7 @@ a {
 
   .footer-para {
     font-size: 12px;
+    color: #f8f8f8;
   }
 
   #nig-logo2 {
