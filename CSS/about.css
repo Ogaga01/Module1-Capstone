@@ -552,7 +552,7 @@ a {
 
   .first-image {
     background-image: url(../Images/summit1.png);
-    background-size: 550px;
+    background-size: 600px;
     background-repeat: no-repeat;
     width: 40%;
     height: 55vh;
@@ -561,7 +561,7 @@ a {
 
   .second-image {
     background-image: url(../Images/summit2.png);
-    background-size: 550px;
+    background-size: 600px;
     background-repeat: no-repeat;
     width: 40%;
     height: 55vh;
