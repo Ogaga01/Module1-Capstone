@@ -4,6 +4,7 @@
 
 > Module-1 capstone project.
 A project to test the understanding of HTML, CSS and Basic Javascript.
+The design of the website for a dummy confrence holding in Nigeria
 
 
 ## Built With
